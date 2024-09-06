@@ -1,0 +1,220 @@
+h2{
+    margin-top: 20px;
+  }
+  img{
+    width:200px;
+    height: 200px;
+  }
+  body{
+   margin: 0;
+  padding: 0;
+  font-family: arial,sans-serif;
+  }
+  section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 
+  }
+  
+  .navbar{
+    height: 8vh;
+    width: 100%;
+    background: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+  }
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .navbaritem li{
+    margin-left: 20px;
+  }
+  .navbaritem a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  #home{
+    background-color: #f0f0f0;
+    padding: 8vh;
+  }
+  .homecontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  #home img{
+    width: 200px;
+    height: 200;
+    margin-right: 40px;
+    border-radius: 10px
+  }
+  #home h2{
+    font-size:1.2rem;
+    color: #333;
+    max-width: 600px
+  }
+  #home p{
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 600px;
+  }
+  .founder-image{
+    top: 100;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  #aboutme{
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #aboutme h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  #aboutme p{
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin:0 auto;
+    margin-bottom: 20px;
+  }
+  #services{
+    background-color: #ffffff;
+    padding-top: 8vh;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  #service h2{
+    font-size: 2rem;
+    margin-bottom: 20 px;
+    color: #333;
+  }
+  #service p{
+    font-size: 1.1;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .service-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .service-item{
+    background-color: #f7f7f7
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px(0,0,0,0.1);
+    transition: transform 0.3s eace;
+    color: red;
+  }
+  .service-item:hover{
+    transform: translate Y(-10px);
+  }
+  .service-item h3{
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  .service-item p{
+    font-size: 1 rem;
+    color: #777;
+  }
+  #contactme{
+    background-color: #f7f7f7;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #contactme h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  #contactme form{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: lightblue;
+    padding: 30px;
+  }
+  #contactme label{
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  #contactme input
+  #cotactme textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+  #contactme button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #contactme button:hover{
+    background-color: darkgreen;
+  }
+  .contact-info{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+    
+    
+  }
+  .homecontent{
+    background-image:url (mekezo.jpg);
+  }
+  .m{
+    height: 90px;
+    width: 100px;
+  }
